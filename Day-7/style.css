@@ -1,0 +1,88 @@
+/* Selectors: element, id, class, universal, attribute, pseudo, group */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* table, tr, th, td {
+    border: 2px solid paleturquoise;
+    padding: 10px;
+
+}
+table 
+{
+    margin: auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: darkcyan;
+}
+ /* ol {
+    /* list-style-type: lower-greek; */
+    /* margin: 200px; */
+    /* list-style-type: symbols() */
+    /* /* list-style: "🔔"  ; */
+/* } */
+
+/* a:active {
+    color: black;
+}
+
+input:focus {
+ background-color: aquamarine;
+}
+a:hover {
+    background-color: darkseagreen;
+}
+a:visited {
+    color: crimson;
+}
+
+div p:first-child {
+  color: mediumpurple;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+div p::first-letter {
+    font-size:30px;
+}
+
+div p::after {
+    content: "new text added";
+    color:brown;
+}
+div p::before {
+    content: "Before text" ;
+    color: olivedrab;
+} */ 
+
+.parent {
+    display: grid;
+    background-color: antiquewhite;
+    grid-template-columns: 100px 100px 100px;
+    /* grid-template-columns: 1fr 1fr 20%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-around;
+    grid-row-gap: 100px;
+    grid-column-gap: 100px;
+    grid-gap: 20px; */ 
+}
+
+
+.childs {
+    align-content: center;
+    border: 1px  solid rgb(16, 7, 25);
+    text-align: center;
+    background-color: rgb(231, 195, 181);
+}
+/* #child1 {
+    grid-column-start: 1;
+    grid-column-end:-1 ;
+    grid-column: 1/-2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+} 

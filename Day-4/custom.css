@@ -1,0 +1,42 @@
+/* .image {
+    background-image: url("https://blog-media.byjusfutureschool.com/bfs-blog/2021/09/17203233/What-is-HTML-Article-Page-948_500.png");
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+}
+
+#main {
+    position: relative;
+    top: 10px;
+}
+
+h3 {
+   position: absolute;
+   z-index: 1;
+   top: 40px;
+   left: 750px;
+   color: black;
+}
+
+body {
+    background-color: black;
+    
+  } */
+  
+  .content{
+      width: 300px;
+      height: 150px;
+      background-color: antiquewhite;
+      padding: 20px;
+      border: 10px solid yellow;
+      box-sizing: content-box;   
+  }
+  
+  .border{
+      width: 300px;
+      height: 150px;
+      background-color: antiquewhite;
+      padding: 20px;
+      border: 10px solid yellow;
+      box-sizing: border-box;
+  }

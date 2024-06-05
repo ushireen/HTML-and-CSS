@@ -1,0 +1,49 @@
+
+
+/* selector{
+    property:value
+ }  */
+
+ p { 
+    text-align: center;
+
+    /* font-size: 15px; 
+    font-weight: 200;
+    font-style: italic;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+
+    /* shorthand  */
+font: italic 20px sans-serif; 
+ } 
+
+  /* div { 
+    text-align: center;
+    width: 200px;
+    border-color: blueviolet; 
+    border-style: groove;
+     border-width: 20px; 
+     border: 2px dotted peru 
+    border-left: 10px solid palegreen
+    border-radius: 5px 10px 6px 8px;
+    padding: 10px 10px 40px 30px; 
+
+     margin: auto;  */
+
+    /* Text Properties */
+
+  /* font-size: 30px;
+ text-align: justify;
+ text-decoration: overline;
+ text-transform: uppercase;
+ text-shadow: 2px 2px greenyellow; */
+ /* }  */
+
+ a{
+   text-decoration: none;
+   color: rgb(120, 79, 38);
+   margin-left: 100px;
+   font-size: 40px;
+   color: 01204E;
+   color: 003285;
+ }

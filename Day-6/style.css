@@ -1,0 +1,36 @@
+/* p {
+    width: 200px;
+    height: 100px;
+    background-color: antiquewhite;
+     /* overflow: visible;  */
+     /* overflow: scroll;
+     overflow: hidden;
+}
+
+img {
+    width: 400px;
+    height: 150px;
+    margin-left: 100px;
+    /* opacity: 0.3; */
+    /* object-fit: fill; */
+
+/* }  */
+
+/* img:hover {
+    opacity: 1;
+} */
+
+/* Gradient */
+.linear {
+    background-image:linear-gradient(to-left orange cyan pink);
+    width: 100%;
+    height: 150px;
+    border: 2px solid palevioletred;
+}
+
+.radial {
+    width: 100%;
+    height: 200px;
+    border: 2px solid palevioletred;
+    margin-top: 20px;
+}

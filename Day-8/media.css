@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+}
+.items {
+    background-color: beige;
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+@media screen and (min-width: 680px) and (max-width: 1080px){
+
+    h2 {
+        color:aqua;
+
+    }
+    .parent {
+        flex-direction: column;
+    }
+    
+}
+@media screen and (min-width: 680px) and (max-width: 1080px) {
+    
+    h2 {
+        background-color: blueviolet;
+        color: pink;
+
+    }
+}
